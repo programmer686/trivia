@@ -1,0 +1,49 @@
+.startBody {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.startLogo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 8rem;
+    letter-spacing: 2px;
+    color: orange;
+    margin-bottom: 20px;
+    padding: 0px 15px;
+}
+
+.logoR {
+    color: pink;
+}
+
+.logoI {
+    color: red;
+}
+
+.startTitle, .startRules {
+    font-family: sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: white;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+}
+
+.startBtn {
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 10px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.startBtn:hover {
+    background-color: black;
+    color: white;
+}
