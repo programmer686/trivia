@@ -62,11 +62,11 @@ export default function Card(props) {
         <h1 className="correct--text">
           {settingFalse ? (
             <div className="result--text">
-              <div className="correct--mark">✔️</div>Correct, Next Question
+              <div className="correct--mark">✔️</div><p className={styles.answer}>Correct, Next Question</p>
             </div>
           ) : (
             <div className="result--text">
-              <div className="incorrect--x">❌</div>Incorrect, Next Question
+              <div className="incorrect--x">❌</div><p className={styles.answer}>Incorrect, Next Question</p>
             </div>
           )}
         </h1>

@@ -67,6 +67,10 @@
 
 }
 
+.answer {
+    color: white;
+}
+
 .wrongAnswer:hover {
      background: #ff0000;
 }
